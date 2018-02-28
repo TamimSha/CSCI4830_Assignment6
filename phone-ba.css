@@ -1,0 +1,28 @@
+/* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
+button { width: 180px; height: 100px; background: green; color: white; margin: 10px; text-align: center}
+
+/* make all tags with the "cool" class name have blue text */
+.cool { color: blue; }
+
+.hid{
+    display:none;
+}
+
+/* make the button with ID "delete" red */
+delete { background: red; }
+
+#gesture_area{width: 300px; height: 400px; background: grey; margin: 10px}
+
+input{margin: 10px}
+
+h1{margin: 10px}
+
+/* Vision Mode */
+body { background-color: black; color: white; }
+body, h1, button { font-size: 160%; }
+.pure-button { background-color: black; color: white; border: 1px solid white; }
+.current-tab { color: yellow; }
+
+#lowVisionToggle { margin-top: 20px; }
+
+#number_input { background-color: black; font-size: 200%; border: 1px solid white;}
